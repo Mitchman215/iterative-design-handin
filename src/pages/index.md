@@ -7,9 +7,9 @@ name: Iterative Design
 
 For this project, we partnered with a startup company called Warp to improve their app's onboarding experience for new users. Our team of 4 went through several iterations of the design process in order to produce a final high-fidelity prototype that we then presented back to the Warp design team.
 
-Working Copy of Project Brief: https://docs.google.com/document/d/1OnuPvlwrVgCszjSbMy32o8lv1ZhEKYGulIAPv9eCa4w/edit?usp=sharing
+Working Copy of Project Brief: <https://docs.google.com/document/d/1OnuPvlwrVgCszjSbMy32o8lv1ZhEKYGulIAPv9eCa4w/edit?usp=sharing>
 
-Revised Project Brief: https://docs.google.com/document/d/1v8eof507fDqg3qIcTCrpPRmT5wzkPmaG1VRNP_wB8LI/edit?usp=sharing
+Revised Project Brief: <https://docs.google.com/document/d/1v8eof507fDqg3qIcTCrpPRmT5wzkPmaG1VRNP_wB8LI/edit?usp=sharing>
 
 ## The Problem
 
@@ -32,14 +32,14 @@ To generate ideas, each team member sketched 2 different possible flows of an im
 There were quite a few aspects that our sketches differed on. For example, we came up with different ideas of how and where to present the marketing survey - some integrated it into the terminal experience directly and others kept it as a separate modal. We also differed in the medium we would use to introduce users to Warp's features, for example having it as a video walkthrough on the download page vs a more interactive tutorial within the app.
 
 ## 1st Lofi Iteration
-Lofi 1st-iteration Figma: <https://www.figma.com/file/TACkvKX91Mf63XSs0fzw2F/Warp-Onboarding-Lo-Fi?type=design&node-id=0%3A1&mode=design&t=qLzWIJhAT7564zYE-1>
 
-NEED TO DO THIS!
-In your hand in, briefly describe:
-the design decisions that led to this final design
-what parts you kept from different sketches and why
-and how your designs lead to the intended impact you discussed with your group
+[Figma](https://www.figma.com/file/TACkvKX91Mf63XSs0fzw2F/Warp-Onboarding-Lo-Fi?type=design&node-id=0%3A1&mode=design&t=qLzWIJhAT7564zYE-1) and [loom walkthrough](https://www.loom.com/share/34497abe0b9141afb81665dda4082e4b?sid=873010f4-ff71-4afb-86c3-94d729022611)
 
+In our first iteration of low-fidelity wireframes, we decided to move both the sign-up screens and marketing survey into the Warp terminal app itself, but to keep them both as a separate modal. We thought these 2 elements should go together, but should also be distinct from the usual command-line UI of the terminal. Moving them inside the app also reduces the back-and-forth between the app and the user's browser, leading to a smoother first experience. Alongside this, we made smaller changes, such as changing "Sign in" to "Log in" to better differentiate from "Sign up", getting rid of the "Next" button in the survey (now clicking on an answer automatically advances), and adding some more survey options - all these decisions further reduced friction.
+
+After the survey, users would then start the setup part of the onboarding experience where they customize their Warp app. This was done "in-blocklist", meaning the appearance was reminiscent of the typical scrolling command-by-command terminal UI but had selectable blocks displayed. We kept Warp's 2 existing setup steps and added a few additional steps that allow users to select what shell to use. These last steps would help reduce the confusion that users often had about porting over their existing shell and configuration.
+
+After the setup section, we transitioned to the walkthrough of Warp's features. We liked the idea from our sketches of creating a cohesive flow in this section - sort of like a tutorial. We wanted to closely simulate the typical terminal experience to get users used to using it, but also wanted to highlight some of the interactable features of Warp so users were aware of them. This required striking a balance between interface components that were already present in Warp/terminal settings and introducing new components to communicate necessary information.
 
 ### Critique
 
@@ -54,11 +54,13 @@ Lofi 2nd-iteration Figma: <https://www.figma.com/file/50TYCr9AH0QHsNiBSxBS9W/War
 We made a few noticeable changes to our first lo-fi mockup. The biggest change was to move the marketing survey into the "in-blocklist" terminal experience, as per suggested by our client. The primary reason for this was due to the fact that this suggestion had been repeated multiple times. Although we personally did not agree to the move as the optimal user experience, we felt that the opinion of the client should be prioritized over personal rationale regarding user optimality. We disagreed with incorporating the marketing survey into the in-blocklist terminal onboarding process mainly because we felt the dry rigor of clicking through a user survey offered little benefit to the first-time user, dimished incentive to continue with the onboarding process for Warp, and generally seemed out of place in such a critical time of experimentation for the first-time user. The process of clicking through questions one-at-a-time in the terminal does not seem conducive to providing the user with a broad overview of the features of Warp. It also brought up technical concerns regarding data transfer on the backend; the incorporation of the survey into the terminal allows for the viewing of one's history of survey responses, and the decision of whether to allow the user to change responses brought up considerations of when a user was considered to have completed a question and when the response data should be submitted to Warp. Furthermore, the need to potentially select multiple options within some questions surfaced concerns regarding whether a "finished" button was necessitated for each question. If so, the addition of such input between each question would only added to the tediousness of the process. We forewent the suggestion to change the name of the marketing survey, as that was the term colloquially used by our contact; we felt it was not apt to change a term they most likely already used within the company.
 
 ## Visual style guide
+
 Visual Style Guide Figma: <https://www.figma.com/file/50TYCr9AH0QHsNiBSxBS9W/Warp-Onboarding-Final?type=design&node-id=2008%3A1979&mode=design&t=qLzWIJhAT7564zYE-1>
 
 Warp provided a relatively thorough brand manual, though it was targeted more towards their website rather than the terminal application. We attempted to mimic the general style of the Warp terminal, including a few variations of base colors. The primary, background, and text colors all have sufficient contrast, and the base primary color is only used with selectable objects. A darker background can be used to place emphasis on a specific region. The typography matched the recommendations of the Warp brand manual, which were likely chosen due to their easy readability at different font sizes and styles. We also provided buttons with hover and click effects, and the general icons and components used. In places where navigation is less clear, we provide popup messages to direct the user's attention.
 
 ## High Fidelity Prototype
+
 Hifi Prototype Figma: <https://www.figma.com/file/50TYCr9AH0QHsNiBSxBS9W/Warp-Onboarding-Final?type=design&node-id=2006%3A5&mode=design&t=qLzWIJhAT7564zYE-1>
 
 We chose to place the marketing survey in the blocklist as this was specifically requested by Warp. We removed the confirm buttons after selecting an option as this would be slightly more efficient and sleek, and users may always go back and change their answers. In the Figma, you may select multiple options, but this is only due to the complex and time-consuming methods for keeping track of state, which we decided to be not a good use of our limited time. In practice, only one option may be selected. We also added a submit button for the survey as technically, there would likely need to be a point at which the user can no longer change their answers and the survey can be sent to the Warp marketing team. This would clear the terminal to transition into the setup portion.
