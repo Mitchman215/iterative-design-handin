@@ -7,6 +7,10 @@ name: Iterative Design
 
 For this project, we partnered with a startup company called Warp to improve their app's onboarding experience for new users. Our team of 4 went through several iterations of the design process in order to produce a final high-fidelity prototype that we then presented back to the Warp design team.
 
+Original Project Brief: https://docs.google.com/document/d/1hhc4bBoLzOfW4se9gRxnDY3tKMI-lMjcfVFFI0WSBNY/edit?usp=sharing
+Working Copy of Project Brief: https://docs.google.com/document/d/1OnuPvlwrVgCszjSbMy32o8lv1ZhEKYGulIAPv9eCa4w/edit?usp=sharing
+Revised Project Brief: https://docs.google.com/document/d/1v8eof507fDqg3qIcTCrpPRmT5wzkPmaG1VRNP_wB8LI/edit?usp=sharing
+
 ## The Problem
 
 Warp's app is a modernized developer terminal with built-in tools for collaboration and AI. Warp already had an existing onboarding experience for new users. At a high level, this experience consisted of downloading the app, signing up with an email, completing a marketing survey in a modal, then customizing the appearance of the app directly through the terminal interface.
