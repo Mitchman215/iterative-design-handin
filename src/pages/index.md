@@ -28,6 +28,14 @@ To generate ideas, each team member sketched 2 different possible flows of an im
 There were quite a few aspects that our sketches differed on. For example, we came up with different ideas of how and where to present the marketing survey - some integrated it into the terminal experience directly and others kept it as a separate modal. We also differed in the medium we would use to introduce users to Warp's features, for example having it as a video walkthrough on the download page vs a more interactive tutorial within the app.
 
 ## 1st Lofi Iteration
+Lofi 1st-iteration Figma: <https://www.figma.com/file/TACkvKX91Mf63XSs0fzw2F/Warp-Onboarding-Lo-Fi?type=design&node-id=0%3A1&mode=design&t=qLzWIJhAT7564zYE-1>
+
+NEED TO DO THIS!
+In your hand in, briefly describe:
+the design decisions that led to this final design
+what parts you kept from different sketches and why
+and how your designs lead to the intended impact you discussed with your group
+
 
 ### Critique
 
@@ -42,8 +50,18 @@ Lofi 2nd-iteration Figma: <https://www.figma.com/file/50TYCr9AH0QHsNiBSxBS9W/War
 We made a few noticeable changes to our first lo-fi mockup. The biggest change was to move the marketing survey into the "in-blocklist" terminal experience, as per suggested by our client. The primary reason for this was due to the fact that this suggestion had been repeated multiple times. Although we personally did not agree to the move as the optimal user experience, we felt that the opinion of the client should be prioritized over personal rationale regarding user optimality. We disagreed with incorporating the marketing survey into the in-blocklist terminal onboarding process mainly because we felt the dry rigor of clicking through a user survey offered little benefit to the first-time user, dimished incentive to continue with the onboarding process for Warp, and generally seemed out of place in such a critical time of experimentation for the first-time user. The process of clicking through questions one-at-a-time in the terminal does not seem conducive to providing the user with a broad overview of the features of Warp. It also brought up technical concerns regarding data transfer on the backend; the incorporation of the survey into the terminal allows for the viewing of one's history of survey responses, and the decision of whether to allow the user to change responses brought up considerations of when a user was considered to have completed a question and when the response data should be submitted to Warp. Furthermore, the need to potentially select multiple options within some questions surfaced concerns regarding whether a "finished" button was necessitated for each question. If so, the addition of such input between each question would only added to the tediousness of the process. We forewent the suggestion to change the name of the marketing survey, as that was the term colloquially used by our contact; we felt it was not apt to change a term they most likely already used within the company.
 
 ## Visual style guide
+Visual Style Guide Figma: <https://www.figma.com/file/50TYCr9AH0QHsNiBSxBS9W/Warp-Onboarding-Final?type=design&node-id=2008%3A1979&mode=design&t=qLzWIJhAT7564zYE-1>
+
+Warp provided a relatively thorough brand manual, though it was targeted more towards their website rather than the terminal application. We attempted to mimic the general style of the Warp terminal, including a few variations of base colors. The primary, background, and text colors all have sufficient contrast, and the base primary color is only used with selectable objects. A darker background can be used to place emphasis on a specific region. The typography matched the recommendations of the Warp brand manual, which were likely chosen due to their easy readability at different font sizes and styles. We also provided buttons with hover and click effects, and the general icons and components used. In places where navigation is less clear, we provide popup messages to direct the user's attention.
 
 ## High Fidelity Prototype
+Hifi Prototype Figma: <https://www.figma.com/file/50TYCr9AH0QHsNiBSxBS9W/Warp-Onboarding-Final?type=design&node-id=2006%3A5&mode=design&t=qLzWIJhAT7564zYE-1>
+
+We chose to place the marketing survey in the blocklist as this was specifically requested by Warp. We removed the confirm buttons after selecting an option as this would be slightly more efficient and sleek, and users may always go back and change their answers. In the Figma, you may select multiple options, but this is only due to the complex and time-consuming methods for keeping track of state, which we decided to be not a good use of our limited time. In practice, only one option may be selected. We also added a submit button for the survey as technically, there would likely need to be a point at which the user can no longer change their answers and the survey can be sent to the Warp marketing team. This would clear the terminal to transition into the setup portion.
+
+Our setup portion begins similarly to the existing setup guide. Once again, we decided to remove selection confirmation as users may always go back and change their answers. We also added a shell selection section to address one of the pain points mentioned in the project debrief. Certain users were unclear if their existing configurations could be brought over into Warp, so the shell selection part of the setup guide clearly states that their configurations are transferred while also providing the option to use different shells, which Warp does support.
+
+We also added a walkthrough portion to the onboarding experience as we believed this would give users a better sense of what makes Warp unique. We believed this would increase Week 1 retention, the primary metric, as Warp has a lot of powerful features that makes it really useful that not all users may be aware of. In the current version of Warp, most of the features are not especially highlighted or demonstrated, simply existing as unmarked buttons. We prompt the user to input their first command in order to explain Warp blocks and transition into demonstrating how to use the Warp drive. We did notice that simply having text instructions often allowed them to be overlooked, and thus added popup messages to more clearly direct users and generally tried to avoid using long blocks of text where visual indicators could be more effective. We also demonstrated Warp AI both for debugging and command generation. We added an input box border in the Warp AI section as this made it much more clear which region of text users can edit. Finally, we highlighted the Warp Essentials button as this provides numerous tips and updates regarding how to optimize Warp usage.
 
 ### Critique
 
