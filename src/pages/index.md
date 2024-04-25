@@ -63,6 +63,8 @@ Warp provided a relatively thorough brand manual, though it was targeted more to
 
 Hifi Prototype Figma: <https://www.figma.com/file/50TYCr9AH0QHsNiBSxBS9W/Warp-Onboarding-Final?type=design&node-id=2006%3A5&mode=design&t=qLzWIJhAT7564zYE-1>
 
+Loom: https://www.loom.com/share/255d8b566e7c4359a9bc3d1944ac5847?sid=b874711d-9031-4d69-b078-018c38b76087
+
 We chose to place the marketing survey in the blocklist as this was specifically requested by Warp. We removed the confirm buttons after selecting an option as this would be slightly more efficient and sleek, and users may always go back and change their answers. In the Figma, you may select multiple options, but this is only due to the complex and time-consuming methods for keeping track of state, which we decided to be not a good use of our limited time. In practice, only one option may be selected. We also added a submit button for the survey as technically, there would likely need to be a point at which the user can no longer change their answers and the survey can be sent to the Warp marketing team. This would clear the terminal to transition into the setup portion.
 
 Our setup portion begins similarly to the existing setup guide. Once again, we decided to remove selection confirmation as users may always go back and change their answers. We also added a shell selection section to address one of the pain points mentioned in the project debrief. Certain users were unclear if their existing configurations could be brought over into Warp, so the shell selection part of the setup guide clearly states that their configurations are transferred while also providing the option to use different shells, which Warp does support.
