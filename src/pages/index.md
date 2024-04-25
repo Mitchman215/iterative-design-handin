@@ -10,6 +10,7 @@ For this project, we partnered with a startup company called Warp to improve the
 Original Project Brief: https://docs.google.com/document/d/1hhc4bBoLzOfW4se9gRxnDY3tKMI-lMjcfVFFI0WSBNY/edit?usp=sharing
 
 Working Copy of Project Brief: https://docs.google.com/document/d/1OnuPvlwrVgCszjSbMy32o8lv1ZhEKYGulIAPv9eCa4w/edit?usp=sharing
+
 Revised Project Brief: https://docs.google.com/document/d/1v8eof507fDqg3qIcTCrpPRmT5wzkPmaG1VRNP_wB8LI/edit?usp=sharing
 
 ## The Problem
